@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"
         integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -31,11 +31,13 @@
 
             </nav>
             <div id="root">
-            <div id="root-1">
+            <div id="root-1" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
 
 
             </div>
-            <div id="root-2">
+            <div id="root-2" data-aos="fade-up">
 
 
 
@@ -56,6 +58,10 @@
     <script src="JS/navBar.js"></script>
     <script src="JS/index.js"></script>
     <script src="JS/footer.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>

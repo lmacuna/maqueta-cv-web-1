@@ -14,6 +14,7 @@ const imagen=()=>{
 
     <img id="img" class="img-lucas" src="IMAGES/img-mi-perfil-linkedin-recortada.jpeg" alt="foto"></img>
     <span style="color:white">Lucas Martín Acuña<span>
+    <span style="color:white">Desarrollador de Software<span>
     `
 }
 
