@@ -9,7 +9,7 @@ form.addEventListener('submit',(e)=>{
       if(r){
            
         const envio= async()=>{
-            var res=await fetch('https://web-vercel-fli1lvdp9-lmacuna.vercel.app/contact',{
+            var res=await fetch('https://web-vercel-gj6ps5iek-lmacuna.vercel.app//contact',{
                 method:'POST',
                 body:data
             })
